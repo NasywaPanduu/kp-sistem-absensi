@@ -12,19 +12,19 @@ export const Layout: React.FC<LayoutProps> = ({ user, children, onLogout }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-sky-100">
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-md shadow-lg border-b border-gray-200/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 lg:h-20">
             <div className="flex items-center space-x-3 lg:space-x-4">
-              <img 
-                src="/sd copy.png" 
-                alt="Logo Sekolah" 
+              <img
+                src="./sd copy.png"
+                alt="Logo Sekolah"
                 className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl object-cover shadow-md"
               />
               <div className="hidden sm:block">
-                <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   Sistem Absensi
                 </h1>
                 <p className="text-sm lg:text-base text-gray-600">SDN 2 SOJOKERTO</p>
@@ -33,7 +33,7 @@ export const Layout: React.FC<LayoutProps> = ({ user, children, onLogout }) => {
             
             <div className="flex items-center space-x-2 lg:space-x-4">
               <div className="hidden md:flex items-center space-x-3 bg-gray-50 rounded-full px-4 py-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
                   <User className="w-4 h-4 text-white" />
                 </div>
                 <div className="text-right">
@@ -69,7 +69,7 @@ export const Layout: React.FC<LayoutProps> = ({ user, children, onLogout }) => {
             <div className="md:hidden border-t border-gray-200 bg-white/95 backdrop-blur-sm">
               <div className="px-4 py-4 space-y-3">
                 <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
-                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
                     <User className="w-5 h-5 text-white" />
                   </div>
                   <div>

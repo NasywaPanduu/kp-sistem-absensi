@@ -105,14 +105,14 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ user }) => {
           </div>
         </div>
 
-        <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-purple-200/50 hover:shadow-xl transition-all duration-200 transform hover:-translate-y-1">
+        <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-teal-200/50 hover:shadow-xl transition-all duration-200 transform hover:-translate-y-1">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-semibold text-gray-600 mb-1">Mata Pelajaran</p>
               <p className="text-3xl font-bold text-gray-900">{subjects.length}</p>
             </div>
-            <div className="p-3 bg-purple-100 rounded-full">
-              <BookOpen className="h-8 w-8 text-purple-600" />
+            <div className="p-3 bg-teal-100 rounded-full">
+              <BookOpen className="h-8 w-8 text-teal-600" />
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ user }) => {
               const studentClass = classes.find(c => c.id === student.classId);
               return (
                 <div key={student.id} className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-md">
                     <Users className="h-4 w-4 text-blue-600" />
                   </div>
                   <div className="flex-1">
@@ -186,7 +186,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ user }) => {
     <div className="space-y-6 lg:space-y-8">
       {/* Header */}
       <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 lg:p-8 shadow-lg border border-gray-200/50">
-        <h1 className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+        <h1 className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
           Dashboard Admin
         </h1>
         <p className="text-gray-600 mt-2 text-lg">Selamat datang, {user.name}</p>

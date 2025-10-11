@@ -85,7 +85,7 @@ export const ClassManagement: React.FC<ClassManagementProps> = ({
         <h2 className="text-xl lg:text-2xl font-semibold text-gray-900">Manajemen Data Kelas</h2>
         <button
           onClick={() => setShowForm(true)}
-          className="flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+          className="flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
         >
           <Plus className="w-4 h-4" />
           <span>Tambah Kelas</span>
@@ -173,7 +173,7 @@ export const ClassManagement: React.FC<ClassManagementProps> = ({
             {/* Sticky Header */}
             <div className="sticky top-0 bg-white/95 backdrop-blur-md rounded-t-3xl border-b border-gray-200/50 p-6 z-10">
               <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                <h3 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   {editingClass ? 'Edit Kelas' : 'Tambah Kelas'}
                 </h3>
                 <button
@@ -258,7 +258,7 @@ export const ClassManagement: React.FC<ClassManagementProps> = ({
                       form.dispatchEvent(formEvent);
                     }
                   }}
-                  className="flex-1 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all font-medium shadow-lg transform hover:-translate-y-0.5"
+                  className="flex-1 px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl hover:from-blue-700 hover:to-cyan-700 transition-all font-medium shadow-lg transform hover:-translate-y-0.5"
                 >
                   {editingClass ? 'Update' : 'Simpan'}
                 </button>
