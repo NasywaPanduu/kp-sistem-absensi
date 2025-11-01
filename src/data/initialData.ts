@@ -33,7 +33,7 @@ export const initialUsers: User[] = [
 
 export const initialTeachers: Teacher[] = [
   {
-    id: '1',
+    id: '2',
     nip: '196801011990031001',
     name: 'Budi Santoso',
     email: 'budi.santoso@sekolah.edu',
@@ -41,7 +41,7 @@ export const initialTeachers: Teacher[] = [
     subject: 'Guru Kelas 1'
   },
   {
-    id: '2',
+    id: '3',
     nip: '197205151995122002',
     name: 'Siti Rahma',
     email: 'siti.rahma@sekolah.edu',
@@ -49,7 +49,7 @@ export const initialTeachers: Teacher[] = [
     subject: 'Guru Kelas 2'
   },
   {
-    id: '3',
+    id: '4',
     nip: '198003201998031003',
     name: 'Ahmad Wijaya',
     email: 'ahmad.wijaya@sekolah.edu',
